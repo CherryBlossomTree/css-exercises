@@ -1,0 +1,25 @@
+/*Odd # elemements: light red/pink background, font-family: Verdana, 'Dejavu Sans', sans-serif 
+  2nd element - blue text; font-size: 36px
+  3rd element - Odd # styling + font-size: 24px
+  4th element - green background; font-size: 24px; font-weight: bold
+*/
+
+.odd-class {
+    background-color: rgb(233, 131, 131);
+    font-family: Verdana, 'Dejavu Sans', sans-serif;
+}
+
+#div-one {
+    color: blue;
+    font-size: 36px;
+}
+
+.odd-class.special-style {
+    font-size: 24px;
+}
+
+#div-two {
+    background-color: rgb(58, 243, 58);
+    font-size: 24px;
+    font-weight: bold;
+}
