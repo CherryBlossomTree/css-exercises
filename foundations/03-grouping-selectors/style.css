@@ -1,0 +1,18 @@
+/*Grouping selectors cuts down on repetition
+since both .button1 and .button2
+have the same styles applied
+*/
+.button1,
+.button2 {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.button1 {
+    background-color: black;
+    color: white;
+}
+
+.button2{
+    background-color: yellow;
+}
